@@ -5,12 +5,15 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Git",
+		"GitGutter",
 		"GoSublime",
 		"Markdown Extended",
 		"Modific",
 		"Package Control",
 		"SideBarEnhancements",
-		"SideBarGit",
-		"SublimeREPL"
+		"Xdebug Client"
 	]
 }

@@ -69,3 +69,59 @@ stdout: ``
 stderr: `go: cannot find GOROOT directory: /usr/local/go/bin/go`
 exception: `None`
 --------------------------------
+
+** 2016-05-19 11:14:05.455212 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-v', '-x', '-o', 'gosublime.margo_r16.05.03-2_go1.5.1.exe', 'gosubli.me/margo']`
+stdout: ``
+stderr: `WORK=/var/folders/23/pwc_c2q52kdcs7zcw30n_m1w0000gn/T/go-build643408596
+net
+mkdir -p $WORK/net/_obj/
+mkdir -p $WORK/
+gosubli.me/something-borrowed/types
+mkdir -p $WORK/gosubli.me/something-borrowed/types/_obj/
+mkdir -p $WORK/gosubli.me/something-borrowed/
+cd /usr/local/go/src/net
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/net.a -trimpath $WORK -p net -buildid bbaeda5af7c4c44865348dfc9298a26c0fc97afe -D _/usr/local/go/src/net -I $WORK -pack ./addrselect.go ./cgo_stub.go ./conf.go ./dial.go ./dnsclient.go ./dnsclient_unix.go ./dnsconfig_unix.go ./dnsmsg.go ./fd_mutex.go ./fd_poll_runtime.go ./fd_posix.go ./fd_unix.go ./file.go ./file_unix.go ./hook.go ./hook_unix.go ./hosts.go ./interface.go ./interface_bsd.go ./interface_darwin.go ./ip.go ./iprawsock.go ./iprawsock_posix.go ./ipsock.go ./ipsock_posix.go ./lookup.go ./lookup_unix.go ./mac.go ./net.go ./nss.go ./parse.go ./pipe.go ./port.go ./port_unix.go ./sendfile_stub.go ./sock_bsd.go ./sock_posix.go ./sockopt_bsd.go ./sockopt_posix.go ./sockoptip_bsd.go ./sockoptip_posix.go ./sys_cloexec.go ./tcpsock.go ./tcpsock_posix.go ./tcpsockopt_darwin.go ./tcpsockopt_posix.go ./udpsock.go ./udpsock_posix.go ./unixsock.go ./unixsock_posix.go
+cd /Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/gosubli.me/something-borrowed/types.a -trimpath $WORK -p gosubli.me/something-borrowed/types -complete -buildid 3279fcaec798ef97ccc3e2261837488bb53536a2 -D _/Users/yyan/Library/Application_Support/Sublime_Text_3/Packages/GoSublime/src/gosubli.me/something-borrowed/types -I $WORK -pack "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/api.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/builtins.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/check.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/const.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/conversions.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/errors.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/exportdata.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/expr.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/gcimporter.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/objects.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/operand.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/predicates.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/resolve.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/scope.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/sizes.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/stmt.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/types.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types/universe.go"
+go build gosubli.me/something-borrowed/types: /usr/local/go/pkg/tool/darwin_amd64/compile: chdir /Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/types: no such file or directory
+crypto/x509
+mkdir -p $WORK/crypto/x509/_obj/
+mkdir -p $WORK/crypto/
+cd /usr/local/go/src/crypto/x509
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/crypto/x509.a -trimpath $WORK -p crypto/x509 -complete -buildid 11f14b04c4ff5069286872fce37eaed073924851 -D _/usr/local/go/src/crypto/x509 -I $WORK -pack ./cert_pool.go ./pem_decrypt.go ./pkcs1.go ./pkcs8.go ./root.go ./root_darwin.go ./root_nocgo_darwin.go ./sec1.go ./verify.go ./x509.go
+net/textproto
+mkdir -p $WORK/net/textproto/_obj/
+mkdir -p $WORK/net/
+cd /usr/local/go/src/net/textproto
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/net/textproto.a -trimpath $WORK -p net/textproto -complete -buildid 03445ba6d541329d6f472cb2e709fd5133e700db -D _/usr/local/go/src/net/textproto -I $WORK -pack ./header.go ./pipeline.go ./reader.go ./textproto.go ./writer.go
+mime/multipart
+mkdir -p $WORK/mime/multipart/_obj/
+mkdir -p $WORK/mime/
+cd /usr/local/go/src/mime/multipart
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/mime/multipart.a -trimpath $WORK -p mime/multipart -complete -buildid 35558351f9584c693c6241a98d91ab091fd38cb6 -D _/usr/local/go/src/mime/multipart -I $WORK -pack ./formdata.go ./multipart.go ./writer.go
+crypto/tls
+mkdir -p $WORK/crypto/tls/_obj/
+cd /usr/local/go/src/crypto/tls
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/crypto/tls.a -trimpath $WORK -p crypto/tls -complete -buildid fc15dfdc47e1f42799827d1215ea35279725db5e -D _/usr/local/go/src/crypto/tls -I $WORK -pack ./alert.go ./cipher_suites.go ./common.go ./conn.go ./handshake_client.go ./handshake_messages.go ./handshake_server.go ./key_agreement.go ./prf.go ./ticket.go ./tls.go
+net/http
+mkdir -p $WORK/net/http/_obj/
+cd /usr/local/go/src/net/http
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/net/http.a -trimpath $WORK -p net/http -complete -buildid bea0ae320c839dc32253f04d687253f842c1b25c -D _/usr/local/go/src/net/http -I $WORK -pack ./client.go ./cookie.go ./doc.go ./filetransport.go ./fs.go ./header.go ./jar.go ./lex.go ./request.go ./response.go ./server.go ./sniff.go ./status.go ./transfer.go ./transport.go
+net/http/pprof
+mkdir -p $WORK/net/http/pprof/_obj/
+mkdir -p $WORK/net/http/
+cd /usr/local/go/src/net/http/pprof
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/net/http/pprof.a -trimpath $WORK -p net/http/pprof -complete -buildid 2392a144599e301d582af111210e0a44125b9918 -D _/usr/local/go/src/net/http/pprof -I $WORK -pack ./pprof.go
+net/rpc
+mkdir -p $WORK/net/rpc/_obj/
+cd /usr/local/go/src/net/rpc
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/net/rpc.a -trimpath $WORK -p net/rpc -complete -buildid cb678d58e3126dd161b23486920f591268da83d1 -D _/usr/local/go/src/net/rpc -I $WORK -pack ./client.go ./debug.go ./server.go
+gosubli.me/something-borrowed/gocode
+mkdir -p $WORK/gosubli.me/something-borrowed/gocode/_obj/
+cd /Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode
+/usr/local/go/pkg/tool/darwin_amd64/compile -o $WORK/gosubli.me/something-borrowed/gocode.a -trimpath $WORK -p gosubli.me/something-borrowed/gocode -complete -buildid 029c20e01e0722ea857b2b555fa1f5eebbf33a80 -D _/Users/yyan/Library/Application_Support/Sublime_Text_3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode -I $WORK -pack "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/autocompletecontext.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/autocompletefile.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/client.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/config.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/cursorcontext.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/decl.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/declcache.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/formatters.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/gocode.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/gosublime_gocode_bridge.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/os_posix.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/package.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/package_bin.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/package_text.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/ripper.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/rpc.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/scope.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/server.go" "/Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/utils.go"
+go build gosubli.me/something-borrowed/gocode: /usr/local/go/pkg/tool/darwin_amd64/compile: chdir /Users/yyan/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode: no such file or directory`
+exception: `None`
+--------------------------------
